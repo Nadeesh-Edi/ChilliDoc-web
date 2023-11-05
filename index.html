@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<!-- Meta Data -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ChilliDoc</title>
+<link rel="icon" type="image/x-icon" href="./favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<!-- Stlylesheet -->
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="css/font-awesome/css/font-awesome.css" type="text/css" />
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="css/no-ui-slider/jquery.nouislider.css" type="text/css" />
+
+<!-- Skin Color -->
+<link rel="stylesheet" href="css/colors/red.css" id="color-skins"/>
+</head>
+<body>
+
+<!-- Start Preloader -->
+<div id="loader">
+   <div class="spinner">
+      <div class="cube cube0"></div>
+      <div class="cube cube1"></div>
+      <div class="cube cube2"></div>
+      <div class="cube cube3"></div>
+      <div class="cube cube4"></div>
+      <div class="cube cube5"></div>
+      <div class="cube cube6"></div>
+      <div class="cube cube7"></div>
+      <div class="cube cube8"></div>
+      <div class="cube cube9"></div>
+      <div class="cube cube10"></div>
+      <div class="cube cube11"></div>
+      <div class="cube cube12"></div>
+      <div class="cube cube13"></div>
+      <div class="cube cube14"></div>
+      <div class="cube cube15"></div>
+   </div>
+</div>
+<!-- End Preloader -->
+
+<!-- Start Header -->
+<header>
+   <nav class="navbar navbar-default navbar-alt" role="navigation">
+      <div class="container">
+         <!-- Brand and toggle get grouped for better mobile display -->
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand to-top" rel="home" href="#">
+               <!-- <img src="img/assets/logo.png" style="height: 100px; width: auto;" alt="Visual" class="logo-big"> -->
+               <h4 class="red-title">CHILLI-DOC</h4>
+            </a>
+         </div>
+         
+         <!-- Collect the nav links, forms, and other content for toggling -->
+         <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="nav navbar-nav  navbar-right">
+               <li>
+                  <a class="to-top">
+                     Home
+                  </a>
+               </li>
+               <li class="to-section">
+                  <a href="#services">
+                     Reseach
+                  </a>
+               </li>
+               <li class="to-section">
+                  <a href="#team">
+                     Team
+                  </a>
+               </li>
+               <li class="to-section">
+                  <a href="#testimonials">
+                     Documents
+                  </a>
+               </li>
+               <li class="to-section">
+                  <a href="#contact">
+                     Contact
+                  </a>
+               </li>
+            </ul>
+         </div>
+         <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+   </nav>
+</header>
+<!-- End Header -->
+
+<!-- Start Home Revolution Slider Parallax Section -->
+<section id="home-revolution-slider">
+   <div class="hero">
+      <div class="tp-banner-container">
+         <div class="tp-banner">
+            <ul>
+               <!-- SLIDE 1 -->
+               <li data-transition="fade" data-slotamount="7" data-masterspeed="2000" data-thumb="img/backgrounds/chilli-bg.jpg" data-delay="10000" data-saveperformance="on" data-title="We Are Visual">
+                  <img src="img/backgrounds/chilli-bg.jpg" alt="slidebg1" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                  
+                  <!-- Home Heading -->
+                  <div class="tp-caption sft"
+                                        data-x="center"  
+                                        data-y="260"
+                                        data-speed="1200"
+                                        data-start="1100"
+                                        data-easing="Power3.easeInOut"
+                                        data-splitin="none"
+                                        data-splitout="none"
+                                        data-elementdelay="0.1"
+                                        data-endelementdelay="0.1"
+                                        data-endspeed="300"
+                                        style="z-index: 4; max-width: auto; max-height: auto; white-space:normal;">
+                     <h2 class="home-heading op-1">CHILLI-DOC</h2>
+                  </div>
+                  <!-- Home Subheading -->
+                  <div class="tp-caption home-subheading sft "
+                                        data-x="center" 
+                                        data-y="360" 
+                                        data-speed="1200"
+                                        data-start="1350"
+                                        data-easing="Power3.easeInOut"
+                                        data-splitin="none"
+                                        data-splitout="none"
+                                        data-elementdelay="0.1"
+                                        data-endelementdelay="0.1"
+                                        data-endspeed="300"
+                                        style="z-index: 4; max-width: auto; max-height: auto; white-space:normal;">
+                     <div class="op-1">Mobile Application for chili disease detection, correction, prevention and price prediction</div>
+                  </div>
+                  <!-- Home Button -->
+                  <div class="tp-caption home-button sft fadeout"
+                                        data-x="center" 
+                                        data-y="400" 
+                                        data-speed="1200"
+                                        data-start="1550"
+                                        data-easing="Power3.easeInOut"
+                                        data-splitin="none"
+                                        data-splitout="none"
+                                        data-elementdelay="0.1"
+                                        data-endelementdelay="0.1"
+                                        data-endspeed="300"
+                                        style="z-index: 4; max-width: auto; max-height: auto; white-space:normal;">
+                     <div class="op-1">
+                        <a href="#testimonials" class="btn btn-primary btn-scroll">
+                           Documents
+                        </a>
+                     </div>
+                  </div>
+               </li>
+            </ul>
+            <div class="tp-bannertimer"></div>
+         </div>
+         <div class="home-bottom">
+            <div class="container text-center">
+               <div class="move bounce">
+                  <a href="#features" class="ion-ios-arrow-down btn-scroll">
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- End Home Revolution Slider Parallax Section -->
+
+<div class="site-wrapper content">
+
+    
+   <!-- Start Get Connected -->
+   <section id="services" class="parallax-section-9">
+      <div class="container">
+         <div class="col-md-12 text-center">
+            <h3 class="section-title wow fadeInUp">Literature Survey</h3>
+            <p class="subheading wow fadeInUp"><span class="highlight">Project Scope</span></p>
+
+
+            <p>We have largely concentrated on related research projects in the same field in the literature review. Our research's major goal is to boost productivity by offering an automated solution to the poultry farm's problems. In the beginning, we used a variety of secondary sources to conduct some preliminary studies on this. This made it possible for us to be aware of the characteristics that were accessible, which assisted us in choosing our work's outlines. 
+
+For the literature survey we need to mainly focus on related research and functionalities in the same area. Our main objective was Design and develop an intelligent system to increase productivity and decrease market price and also prevent egg shortage in Sri lanka, in order to do this poultry farm safety is very important.  As a beginner point we did some similar research using external sources .This analysis under the wild life intruder detection using only acoustic sensors.this is by Technical University of Cluj-Napoca, Faculty of Electronics, Telecommunications and Information Technology, Signal Processing Group, Str. Baritiu 26-28, RO-400027, Cluj-Napoca, Romania. They have developed systems to protect related to large wildlife regions such as forests, lakes,and other natural reservations. They take only the sounds and sensors, the sound by who, like humans, engines, birds and animals. They utilized this with low complexity and standard audio classification methods [1]. Another research was "Intruder Detection in Poultry Farms using Computer Vision Techniques" by Arun et al. (2018). This paper proposes a computer vision-based approach for intruder detection in poultry farms that uses background subtraction and object detection algorithms. The approach is shown to achieve high accuracy in detecting intruders while minimizing false alarms this basically is related to our research. What is done is they are taking two dimensional data for the detection voice plus video, and preprocessing data and getting real time output. They are using Yolo, we are expecting to use what giving most accurate framework and algorithm like SSD, R-CNN, CNN. 
+
+ 
+
+Dina Machuve and Ezinne Nwankwo are developing a Deep Convolutional Neural Network (CNN) model to detect poultry diseases by classifying healthy and unhealthy feces. The goal is to test the early detection of poultry diseases using deep learning techniques. Unhealthy stool patterns can be symptoms of coccidiosis, salmonella, and Newcastle disease. They used a total of 1,255 laboratory-labeled stool and feces samples, as well as 6,812 photographs of chicken feces, for polymerase chain reaction diagnosis and laboratory-labeled stool interpretation. They trained basic CNN models such as VGG16, InceptionV3, MobileNetV2, and Exception models using labeled farm and laboratory fecal images [3]. The aim of this research is Early Disease Detection using Machine Learning to detect diseases in laying hens. There are several steps to obtain quick solutions. 
+
+Poultry farming is an essential part of the agriculture industry and a major source of food for humans worldwide. The productivity of poultry farms is dependent on various factors, including the control conditions and the prediction of product outcomes. In recent years, there has been a growing interest in developing new algorithms to improve the productivity of poultry farms.One of the critical factors that affect the productivity of poultry farms is the control conditions. The control conditions in poultry farming include the temperature, humidity, lighting, and ventilation of the poultry house. These factors are crucial for the health and well-being of the birds, and they can significantly impact the productivity of the farm. Therefore, it is essential to maintain optimal control conditions to ensure maximum productivity. 
+
+In recent years, researchers have been using advanced technologies and algorithms to predict the product outcomes in poultry farming. The prediction of product outcomes is essential for the farmers to make informed decisions about the management and breeding of the birds. By predicting the product outcomes, farmers can identify the most productive birds and improve the overall productivity of the farm. </p>
+         </div>
+         
+      </div>
+   </section>
+   <!-- End Services Section -->
+   
+   
+   <!-- Start Features Section -->
+   <section id="features">
+      <div class="container">
+         <div class="col-md-12 text-center wow fadeInUp">
+            <h3 class="section-title">Research Objectives</h3>
+            <p class="subheading"><span class="highlight"> </span></p>
+         </div>
+         <div class="row features-row wow fadeInUp">
+            <div class="col-md-6 col-sm-12 feature-column">
+               <div class="feature-icon">
+                  <i class="icon-anchor size-2x highlight"></i>
+                  <i class="icon-anchor back-icon"></i>
+               </div>
+               <div class="feature-info">
+                  <h4>Identifying corrective measures for diseases, preventive methods and ideal conditions for optimal growth</h4>
+                  <p class="feature-description">Develop a system which identifies the agrochemicals and fertilizers for optimal chili growth using machine learning algorithms.</p>
+               </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12 feature-column">
+               <div class="feature-icon">
+                  <i class="icon-anchor size-2x highlight"></i>
+                  <i class="icon-anchor back-icon"></i>
+               </div>
+               <div class="feature-info">
+                  <h4>Identifying chili plant disease using image processing</h4>
+                  <p class="feature-description">Develop a chili plant disease identification system using image processing and machine learning techniques, particularly the MobileNet CNN model paired with the DWT-GLCM hybrid model.</p>
+               </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12 feature-column">
+               <div class="feature-icon">
+                  <i class="icon-anchor size-2x highlight"></i>
+                  <i class="icon-anchor back-icon"></i>
+               </div>
+               <div class="feature-info">
+                  <h4>Identify chili plant growth stages and predict harvest date</h4>
+                  <p class="feature-description">Develop a deep learning model to predict chili plant growth stages and harvest dates based on the collected dataset.</p>
+               </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12 feature-column">
+               <div class="feature-icon">
+                  <i class="icon-anchor size-2x highlight"></i>
+                  <i class="icon-anchor back-icon"></i>
+               </div>
+               <div class="feature-info">
+                  <h4>Predicting weekly future price for both types of chilli by taking exchange rate as an external factor.</h4>
+                  <p class="feature-description">Give accurate prediction of the retail price of both green chilli and capsicum</p>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </section>
+   <!--End Features Section -->
+   
+   <!-- Start About Section -->
+   <section id="about">
+      <div class="container">
+         <div class="col-md-12 text-center wow fadeInUp">
+            <h3 class="section-title">Methodology</h3>
+            <p class="subheading"><span class="highlight"> </span></p>
+         </div>
+         <div class="row">
+            <div class="col-md-6 text-left about-text">
+
+               <div class="img">
+                  <img src="img/system.jpg" class="img-responsive" alt="" />\
+
+               </div>
+              
+            </div>
+            <div class="col-md-6 wow fadeInUp about-text">
+
+               <p>Predicting Egg Production
+
+                  To accurately predict egg production, a methodology can be followed, starting with the collection of historical data on egg production and relevant factors. This data includes information on environmental conditions, feed quality, lighting, and other parameters that may impact egg production. Once the data is gathered, it undergoes preprocessing steps to ensure its quality. This involves cleaning the data, handling missing values, outliers, and inconsistencies that may affect the accuracy of predictions.
+                  
+                  In addition to data cleaning, standardization or normalization techniques may be applied to ensure that all the variables are on a similar scale and contribute equally to the prediction model. This step helps prevent any bias that could arise due to differences in the range or units of the variables.
+                  
+                  The next crucial step is to identify the key predictors that significantly influence egg production. This can be accomplished through correlation analysis, feature importance techniques, or domain knowledge. By understanding the relationships 
+                  </p>
+            </div>
+            <div class="col-md-12">
+<p> between different factors and their impact on egg production, the most influential predictors can be selected for the prediction model.
+                  
+   Finally, an appropriate machine learning model is selected and trained using the preprocessed data. The model is trained to learn the patterns and relationships between the predictors and egg production. Various machine learning algorithms, such as regression models, decision trees, or neural networks, can be employed depending on the complexity of the problem and the available data.
+   
+   The trained model can then be used to provide accurate predictions of egg production based on current conditions and inputs. By continuously updating the model with new data, it can adapt and improve its predictions over time, enhancing its accuracy and usefulness for egg production forecasting.
+   
+   Research Problem 2: Monitoring Farm Conditions
+   
+   Monitoring farm conditions in real-time requires the implementation of an effective methodology. The first step involves deploying IoT devices and sensors throughout the poultry farm to continuously collect data on various parameters. These parameters may include temperature, humidity, ventilation, water quality, lighting, and more. The collected data is transmitted to a central monitoring system for further analysis.
+   
+   In the central monitoring system, the collected data is processed and analyzed to identify any deviations or anomalies from predefined thresholds or patterns. This analysis can involve statistical techniques, machine learning algorithms, or rule-based systems. By comparing the real-time data with the expected ranges or patterns, the system can detect abnormal conditions or variations that may indicate potential issues on the farm.
+   
+   Once deviations or anomalies are detected, the monitoring system generates timely alerts and notifications to the farm owner or manager. These alerts can be delivered through various communication channels, such as email, SMS, or mobile applications, enabling prompt identification and response to abnormal conditions.
+   
+   The integrated system ensures effective farm condition monitoring by continuously collecting, analyzing, and alerting relevant stakeholders about any potential issues. By promptly addressing abnormal conditions, farmers can take appropriate actions to mitigate risks, optimize farm operations, and ensure the well-being of the poultry.
+</p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- End About Section -->
+
+    <!-- Start Clients Section -->
+    <section id="clients">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12 text-center">
+               <h3 class="section-title wow fadeInUp">Technologies Used.</h3>
+               <p class="subheading wow fadeInUp"></p>
+            </div>
+            <div class="clients">
+               <div id="client-slider" class="owl-carousel">
+                  <div class="item">
+                     <img src="img/python.png" style="height: 200px; width: 200px;" alt="" />
+                     <h4 class="text-center w-200">Python</h4>
+                  </div>
+                  <div class="item">
+                     <img src="img/firebase.png" style="height: 200px; width: 200px;" alt="" />
+                     <h4 class="text-center w-200">Firebase</h4>
+                  </div>
+                  <div class="item">
+                     <img src="img/flutter.jpg" style="height: 200px; width: 200px;" alt="" />
+                     <h4 class="text-center w-200">Flutter</h4>
+                  </div>
+                  <div class="item">
+                     <img src="img/tensorflow.png" style="height: 200px; width: 200px;" alt="" />
+                     <h4 class="text-center w-200">TensorFlow</h4>
+                  </div>
+                  <div class="item">
+                     <img src="img/django.png" style="height: 200px; width: 200px;" alt="" />
+                     <h4 class="text-center w-200">DJango</h4>
+                  </div>
+                  
+                 
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- End Clients Section -->
+   
+   <!-- Start Fun Facts Section -->
+   <section id="fun-facts" class="parallax-section-5">
+      <div class="container">
+         <div class="col-md-12 text-center white wow fadeInUp">
+            <h3 class="section-title white">Research Problem & Solution</h3>
+            <p class="subheading"> <span class="highlight"></span></p>
+
+
+            <h4 class="white">The automation of a poultry farm poses several challenges that need to be addressed for efficient operations. The research problem can be divided into three main areas: predicting egg production, monitoring farm conditions, and detecting unauthorized access.
+
+The first research problem involves accurately predicting egg production. It requires identifying the key predictors that significantly influence egg production and developing a reliable machine learning model. Factors such as environmental conditions, feed quality, lighting, and other relevant parameters need to be considered. The challenge is to gather and preprocess relevant data, and train a model that can provide accurate predictions of egg production.
+
+The second research problem is monitoring the farm conditions in real-time. This involves continuously collecting data on temperature, humidity, ventilation, water quality, lighting, and other parameters. The challenge is to design an integrated system that collects live condition data and provides timely alerts to the farm owner or manager in case of any deviations or anomalies.
+
+The third research problem is detecting and preventing unauthorized access to the poultry farm. Unauthorized entry poses risks to the poultry and the farm infrastructure. The challenge is to develop a robust system that can detect unauthorized access attempts and prevent entry by unauthorized individuals.
+
+Solution: To address the research problems, the solution involves implementing a combination of technologies. For predicting egg production, historical data on egg production and relevant factors can be collected and used to train a machine learning model. This model can then provide predictions based on the current conditions and inputs.
+
+For monitoring farm conditions, IoT devices and sensors can be deployed throughout the farm to collect real-time data on temperature, humidity, ventilation, water quality, and lighting. This data can be processed and analyzed by a central monitoring system, which can generate alerts and notifications for any abnormal conditions.
+
+To tackle unauthorized access, security measures such as surveillance cameras, access control systems, and biometric authentication can be implemented. These systems can detect and prevent unauthorized individuals from entering the farm premises.
+
+Additionally, creating an IoT device for collecting eggs can involve using sensors or smart devices within the egg-laying area to automatically detect and collect eggs. This data can be combined with other live updates on egg production to provide accurate information to the farm owner or manager.
+
+Overall, by leveraging machine learning, IoT devices, and security systems, the poultry farm can be automated to optimize egg production, monitor farm conditions, prevent unauthorized access, and provide real-time updates to the farm owner or manager.
+            </h4>
+         </div>
+         
+         </div>
+      </div>
+   </section>
+   
+   <!-- End Fun Facts Section -->
+   
+   <!-- Start Team Section -->
+   <section id="team">
+      <div class="container">
+         <div class="col-md-12 text-center wow fadeInUp">
+            <h3 class="section-title">Meet Our Team !</h3>
+            <p class="subheading"> <span class="highlight">About Us</span></p>
+         </div>
+         <div class="row">
+            <div class="col-md-3 col-sm-3 team-member">
+               <div class="effect effects wow fadeInUp">
+                  <div class="img">
+                     <img src="img/team/msjenny.jpeg" style="height: 400px;" class="img-responsive" alt="" />
+                     <div class="overlay">
+                        <a class="close-overlay hidden">
+                           x
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="member-info wow fadeInUp">
+                  <h4>Ms Jenny Krishara</h4>
+                  <h5 class="highlight">Supervisor</h5>
+                  <p>Sri Lanka Institute of Information Technology</p>
+               </div>
+            </div>
+
+            <div class="col-md-3 col-sm-3 team-member">
+               <div class="effect effects wow fadeInUp">
+                  <div class="img">
+                     <img src="img/team/msthamali.jpg" style="height: 400px;" class="img-responsive" alt="" />
+                     <div class="overlay">
+                        <a class="close-overlay hidden">
+                           x
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="member-info wow fadeInUp">
+                  <h4>Ms Thamali Dassanayake</h4>
+                  <h5 class="highlight">Co Supervisor</h5>
+                  <p>Sri Lanka Institute of Information Technology</p>
+               </div>
+            </div>         
+          </div>
+          <div class="row">
+            <div class="col-md-3 col-sm-3 team-member">
+               <div class="effect effects wow fadeInUp">
+                  <div class="img">
+                     <img src="img/team/akif.png" style="height: 400px;" class="img-responsive" alt="" />
+                     <div class="overlay">
+                        <a class="close-overlay hidden">
+                           x
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="member-info wow fadeInUp">
+                  <h4>Nilam A.A.H</h4>
+                  <h5 class="highlight">Group Leader</h5>
+                  <p>Sri Lanka Institute of Information Technology</p>
+               </div>
+            </div> 
+
+            <div class="col-md-3 col-sm-3 team-member">
+               <div class="effect effects wow fadeInUp">
+                  <div class="img">
+                     <img src="img/team/shevantha.jpg" style="height: 400px;" class="img-responsive" alt="" />
+                     <div class="overlay">
+                        <a class="close-overlay hidden">
+                           x
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="member-info wow fadeInUp">
+                  <h4>Perera J.S</h4>
+                  <h5 class="highlight">Group Member</h5>
+                  <p>Sri Lanka Institute of Information Technology</p>
+               </div>
+            </div> 
+
+            <div class="col-md-3 col-sm-3 team-member">
+               <div class="effect effects wow fadeInUp">
+                  <div class="img">
+                     <img src="img/team/greshan.jpg" style="height: 400px;" class="img-responsive" alt="" />
+                     <div class="overlay">
+                        <a class="close-overlay hidden">
+                           x
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="member-info wow fadeInUp">
+                  <h4>Warnakulasuriya I.S.G.</h4>
+                  <h5 class="highlight">Group Member</h5>
+                  <p>Sri Lanka Institute of Information Technology</p>
+               </div>
+            </div> 
+
+            <div class="col-md-3 col-sm-3 team-member">
+               <div class="effect effects wow fadeInUp">
+                  <div class="img">
+                     <img src="img/team/nadeesh.JPG" style="height: 400px;"  class="img-responsive" alt="" />
+                     <div class="overlay">
+                        <a class="close-overlay hidden">
+                           x
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="member-info wow fadeInUp">
+                  <h4>Edirisooriya N.W.</h4>
+                  <h5 class="highlight">Group Member</h5>
+                  <p>Sri Lanka Institute of Information Technology</p>
+               </div>
+            </div> 
+          </div>
+      </div>
+   </section>
+   <!-- End Team Section -->
+   
+  
+ 
+   <!-- Start Testimonials Section -->
+<section id="testimonials" class="parallax-section-4">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12 text-center">
+            <h3 class="section-title white wow fadeInUp">Documents</h3>
+            <p class="subheading grey wow fadeInUp">Please find all documents related to this project below.</p>
+         </div>
+         <div class="col-md-12 text-center wow fadeInUp">
+            <div class="card-row row">
+               <div class="col-md-3 col-sm-6 card-container">
+                  <div class="card">
+                     <div class="card-icon">
+                        <img src="img/pdf.png" alt="PDF Icon" />
+                     </div>
+                     <div class="card-details">
+                        <h4>Status Document 1</h4>
+                        <p>Submitted on 2021/02/25</p>
+                        <p style="color: red;">Group</p>
+                     </div>
+                     <div class="card-button">
+                        <a href="https://drive.google.com/drive/folders/1rpT4yrY1ReXQrQ1rOnf4sHNC3PXThCwj?usp=share_link" class="btn-download">Download</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 col-sm-6 card-container">
+                  <div class="card">
+                     <div class="card-icon">
+                        <img src="img/pdf.png" alt="PDF Icon" />
+                     </div>
+                     <div class="card-details">
+                        <h4>Proposal Individual Reports</h4>
+                        <p>Submitted on 2021/02/25</p>
+                        <p style="color: green;">Individual</p>
+                     </div>
+                     <div class="card-button">
+                        <a href="https://drive.google.com/drive/folders/1wY_LtoNVmo75D2YZGzvTMPe_gBasrwrR?usp=share_link" class="btn-download">Download</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 col-sm-6 card-container">
+                  <div class="card">
+                     <div class="card-icon">
+                        <img src="img/pdf.png" alt="PDF Icon" />
+                     </div>
+                     <div class="card-details">
+                        <h4>Research Paper</h4>
+                        <p>Submitted on 2021/02/25</p>
+                        <p style="color: rgb(255, 8, 0);">Group</p>
+                     </div>
+                     <div class="card-button">
+                        <a href="https://drive.google.com/drive/folders/1qkE48c62tzzzxlvfgRr1naQdP98JjZN_?usp=share_link" class="btn-download">Download</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 col-sm-6 card-container">
+                  <div class="card">
+                     <div class="card-icon">
+                        <img src="img/pdf.png" alt="PDF Icon" />
+                     </div>
+                     <div class="card-details">
+                        <h4>Final Report & Presentation</h4>
+                        <p>Submitted on 2021/02/25</p>
+                        <p style="color:green;">Individual</p>
+                     </div>
+                     <div class="card-button">
+                        <a href="https://drive.google.com/drive/folders/13aUDp9wFn5QrdItmm-1UPCIL_MH1S1_a?usp=share_link" class="btn-download">Download</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 col-sm-6 card-container">
+                  <div class="card">
+                     <div class="card-icon">
+                        <img src="img/pdf.png" alt="PDF Icon" />
+                     </div>
+                     <div class="card-details">
+                        <h4>Status Document 2</h4>
+                        <p>Submitted on 2021/02/25</p>
+                        <p style="color: green;">Individual</p>
+                     </div>
+                     <div class="card-button">
+                        <a href="https://drive.google.com/drive/folders/1v8EYmENyh9ulwHAvx3CsY-6HPWkDUHDU?usp=share_link" class="btn-download">Download</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 col-sm-6 card-container">
+                  <div class="card">
+                     <div class="card-icon">
+                        <img src="img/pdf.png" alt="PDF Icon" />
+                     </div>
+                     <div class="card-details">
+                        <h4>Log Book</h4>
+                        <p>Submitted on 2021/02/25</p>
+                        <p style="color: red;">Group</p>
+                     </div>
+                     <div class="card-button">
+                        <a href="https://drive.google.com/drive/folders/1VSkG6VGmzqNO0bE1Ck7GoyRsJOkw-KuT?usp=share_link" class="btn-download">Download</a>
+                     </div>
+                  </div>
+               </div>
+               <!-- Repeat the above card structure for other documents -->
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-12 text-center">
+            <h3 class="section-title white wow fadeInUp">Presentations</h3>
+            <p class="subheading grey wow fadeInUp">Please find all presentations related this project below.</p>
+         </div>
+         <div class="col-md-3 col-sm-6 card-container">
+            <div class="card">
+               <div class="card-icon">
+                  <img src="img/pdf.png" alt="PDF Icon" />
+               </div>
+               <div class="card-details">
+                  <h4>Proposal-Presentation 01</h4>
+                  <p>Submitted on 2021/02/25</p>
+                  <p style="color: red;">Group</p>
+               </div>
+               <div class="card-button">
+                  <a href="https://drive.google.com/drive/folders/1AiS5TmCVDJMyPERiCI2qcOzZQU5vmGik?usp=share_link" class="btn-download">Download</a>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-3 col-sm-6 card-container">
+            <div class="card">
+               <div class="card-icon">
+                  <img src="img/pdf.png" alt="PDF Icon" />
+               </div>
+               <div class="card-details">
+                  <h4>Proposal-Presentation</h4>
+                  <p>Submitted on 2022/10/14</p>
+                  <p style="color: red;">Group</p>
+               </div>
+               <div class="card-button">
+                  <a href="https://drive.google.com/drive/folders/1p9tovR29ugkKbpbJqt6fxaM9k-qAZ9Ht?usp=share_link" class="btn-download">Download</a>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-3 col-sm-6 card-container">
+            <div class="card">
+               <div class="card-icon">
+                  <img src="img/pdf.png" alt="PDF Icon" />
+               </div>
+               <div class="card-details">
+                  <h4>Progress Presentations</h4>
+                  <p>Submitted on 2021/02/25</p>
+                  <p style="color: red;">Group</p>
+               </div>
+               <div class="card-button">
+                  <a href="22_23-J 35.ppt" class="btn-download">Download</a>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-3 col-sm-6 card-container">
+            <div class="card">
+               <div class="card-icon">
+                  <img src="img/pdf.png" alt="PDF Icon" />
+               </div>
+               <div class="card-details">
+                  <h4>Progress Presentation - 2</h4>
+                  <p>Submitted on 2021/02/25</p>
+                  <p style="color: red;">Group</p>
+               </div>
+               <div class="card-button">
+                  <a href="https://drive.google.com/drive/folders/1w9W_zo3KKZIP_HodGZ_WdhTfhedSIjmN?usp=share_link" class="btn-download">Download</a>
+               </div>
+            </div>
+         </div>
+         <!-- Repeat the above card structure for other documents -->
+      </div>
+   </section>
+
+   
+   <!-- End Testimonials Section -->
+   
+   <!-- Start Contact Form Section -->
+   <section id="contact">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12 text-center">
+               <h3 class="section-title wow fadeInUp">Contact us</h3>
+               <p class="subheading wow fadeInUp"> Let's Work Together. </p>
+            </div>
+            <div class="col-md-7 wow fadeInUp">
+               <div id="message"></div>
+               <!-- Contact Form will be functional only on your server. Upload to your server when testing. -->
+               <form method="post" action="php/contact-form.php.htm" name="contactform" id="contactform">
+                  <fieldset>
+                     <input name="name" type="text" id="name" placeholder="Name"/>
+                     <input name="email" type="text" id="email" placeholder="Email"/>
+                     <input name="subject" type="text" id="subject" placeholder="Subject"/>
+                  </fieldset>
+                  <fieldset>
+                     <textarea name="comments" cols="40" rows="3" id="comments" placeholder="Message"></textarea>
+                  </fieldset>
+                  <input type="submit" class="submit" id="submit" value="Send Message" />
+               </form>
+            </div>
+            <div class="col-md-5 wow fadeInLeft">
+               <div class="img">
+                  <img src="img/chili-friends.png" class="img-responsive" alt="" />
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- End Contact Form Section -->
+
+    <!-- Start Quote Section -->
+    <section id="quote" class="parallax-section-6">
+      <div class="container">
+         <div class="row wow fadeInUp">
+               <div class="col-md-12 text-center">
+                  <div class="logo-container">
+                     <img src="img/down1.png" alt="Logo" class="logo-img">
+                  </div>
+                  <h1 class="download-title" style="color: white;">Download Now</h1>
+                  <h6 class="download-subtitle" style="color: white;">Chilli-doc mobile application is now available for download on Google Play. Click below Download Button</h6>
+                  <div class="download-button">
+                     <a href="#" class="btn-download">Download</a>
+                  </div>
+               </div>
+            </div>
+      </div>
+   </section>
+   <!-- End Quote Section -->
+   
+  
+   <!-- Start Footer 1 -->
+   <footer id="footer">
+      <!-- End Footer Widgets -->
+      
+      <div class="footer-copyright">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 text-center">
+                  <h3 class="section-title wow fadeInUp">CHILLI-DOC</h3>
+                  <p class="wow fadeInUp"> All Rights Reserved. Copyright © 2023
+                  <a href="http://templatestock.co" target="_blank">SP</a> 
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- End Footer Copyright -->
+      
+   </footer>
+   <!-- End Footer 1 -->
+   
+   <!-- Start Back To Top -->
+   <a id="back-to-top">
+      <i class="icon ion-chevron-up"></i>
+   </a>
+   <!-- End Back To Top -->
+   
+</div>
+<!-- End Site Wrapper -->
+<!-- jQuery -->
+<script type="text/javascript" src="js/plugins/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/plugins/moderniz.min.js"></script>
+<script type="text/javascript" src="js/plugins/smoothscroll.min.js"></script>
+<script type="text/javascript" src="js/no-ui-slider/jquery.nouislider.all.min.js"></script>
+<script type="text/javascript" src="js/plugins/revslider.min.js"></script>
+<script type="text/javascript" src="js/plugins/waypoints.min.js"></script>
+<script type="text/javascript" src="js/plugins/parallax.min.js"></script>
+<script type="text/javascript" src="js/plugins/easign1.3.min.js"></script>
+<script type="text/javascript" src="js/plugins/cubeportfolio.min.js"></script>
+<script type="text/javascript" src="js/plugins/owlcarousel.min.js"></script>
+<script type="text/javascript" src="js/plugins/tweetie.min.js"></script>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script>
+<script type="text/javascript" src="js/plugins/gmap3.min.js"></script>
+<script type="text/javascript" src="js/plugins/wow.min.js"></script>
+<script type="text/javascript" src="js/plugins/counterup.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
