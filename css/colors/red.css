@@ -151,3 +151,44 @@ footer #social-icons li a:hover,
     color: #ee3838;
     text-shadow: 2px 2px #7a7a7a;
 }
+.content-box {
+    margin: 10px;
+    border-radius: 15px;
+    border: solid #ee3838 2px;
+    text-align: center;
+    padding: 10px;
+    height: 500px;
+}
+.content-box:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.content-box-title {
+    color: #1C1C1C;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.content-box-body {
+    height: 400px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.content-box-body::-webkit-scrollbar {
+    display: none;
+}
+.fade-bg {
+    background-color: rgba(115, 15, 15, 0.5);
+    border-radius: 15px;
+}
+.contact-row {
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.contact-row:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

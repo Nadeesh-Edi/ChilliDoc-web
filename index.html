@@ -185,18 +185,73 @@
             <h3 class="section-title wow fadeInUp">Literature Survey</h3>
             <p class="subheading wow fadeInUp"><span class="highlight">Project Scope</span></p>
 
+            <div class="row">
+               <div class="col-md-3 col-sm-6">
+                  <div class="content-box">
+                     <div class="content-box-title">Identifying chili plant disease using image processing</div>
+                     <div class="content-box-body">
+                        <p>Image processing is a domain that holds enormous potential for the agriculture sector, especially in disease detection. Chili plants are susceptible to various diseases, which can significantly impact yield and quality. Timely and accurate identification of these diseases is crucial for effective management. Here, we review several methods and studies that have used image processing for chili plant disease identification.
+                        <br>1.	Traditional Image Processing Techniques.
+<br>a.	Color-Based Detection: Rokade & Vibhute [9] used color features in image processing to detect diseases in chili plants. This method primarily focuses on analyzing the color variations in leaf images to detect anomalies. While this method can be effective in some cases, it is often not sufficient as diseases can also affect texture.
+b.	Texture and Shape Analysis: Along with color, texture and shape are also important characteristics that change due to disease. Anami & Savakar [5] used texture features to classify healthy and diseased chili leaves. 
+c.	Thresholding and Clustering: These are classical image processing methods where the image is segmented based on pixel intensity. Thresholding can help in focusing on regions of interest, such as spots on leaves. 
+<br>2.	Deep Learning-Based Image Processing Techniques.
+<br>a.	Convolutional Neural Networks (CNNs): These are advanced deep learning models specifically designed for image processing. Ahsan [10] used a CNN model for detecting Capsicum leaf diseases. They used transfer learning by fine-tuning pre-trained models on a custom dataset of Capsicum leaf images. 
+b.	Data Augmentation and Active Learning: Deep learning models, especially CNNs, require a large amount of data. Dhaka et al. [19] used a relatively small dataset for detecting chili plant diseases, which may not be sufficient. Data augmentation techniques such as rotation, flipping, and scaling can artificially expand the dataset. Active learning can also be used to train models more efficiently by smartly querying the most informative data points.
+<br>3.	Hybrid Techniques
+<br>a.	Integration of Classical and Deep Learning Methods: Hybrid models that integrate classical image processing techniques with deep learning models can be developed for better performance [21]. Classical methods can be used for preprocessing and feature extraction, while deep learning models can be used for classification.
+b.	Combining Multiple Models for Improved Accuracy: Combining the outputs of multiple models, each trained with different characteristics, can sometimes lead to better performance [20]. 
 
-            <p>We have largely concentrated on related research projects in the same field in the literature review. Our research's major goal is to boost productivity by offering an automated solution to the poultry farm's problems. In the beginning, we used a variety of secondary sources to conduct some preliminary studies on this. This made it possible for us to be aware of the characteristics that were accessible, which assisted us in choosing our work's outlines. 
+                        </p>
+                     </div>
+                  </div>
+               </div>
 
-For the literature survey we need to mainly focus on related research and functionalities in the same area. Our main objective was Design and develop an intelligent system to increase productivity and decrease market price and also prevent egg shortage in Sri lanka, in order to do this poultry farm safety is very important.  As a beginner point we did some similar research using external sources .This analysis under the wild life intruder detection using only acoustic sensors.this is by Technical University of Cluj-Napoca, Faculty of Electronics, Telecommunications and Information Technology, Signal Processing Group, Str. Baritiu 26-28, RO-400027, Cluj-Napoca, Romania. They have developed systems to protect related to large wildlife regions such as forests, lakes,and other natural reservations. They take only the sounds and sensors, the sound by who, like humans, engines, birds and animals. They utilized this with low complexity and standard audio classification methods [1]. Another research was "Intruder Detection in Poultry Farms using Computer Vision Techniques" by Arun et al. (2018). This paper proposes a computer vision-based approach for intruder detection in poultry farms that uses background subtraction and object detection algorithms. The approach is shown to achieve high accuracy in detecting intruders while minimizing false alarms this basically is related to our research. What is done is they are taking two dimensional data for the detection voice plus video, and preprocessing data and getting real time output. They are using Yolo, we are expecting to use what giving most accurate framework and algorithm like SSD, R-CNN, CNN. 
+               <div class="col-md-3 col-sm-6">
+                  <div class="content-box">
+                     <div class="content-box-title">Identifying corrective measures for diseases, preventive methods, and ideal conditions for optimal growth</div>
+                     <div class="content-box-body">
+                        <p>Disease management and fostering the ideal growing conditions are critical for chili production. Several research studies have been undertaken to explore corrective measures for diseases, preventive methods, and optimal growth conditions.
+                           <br>a.	Biological Control Agents: Anjum et al. [1] investigated the use of Trichoderma spp. as a biological control agent against Phytophthora capsici, which causes fruit to rot in chili plants. The study concluded that Trichoderma spp. showed strong antifungal activity, suggesting that it could be a viable alternative to chemical fungicides. Similarly, Gashua et al. [2] found that the colonization of chili plants by arbuscular mycorrhizal fungi (AMF) not only enhanced nutrient uptake and growth but also bolstered resistance to diseases like Fusarium wilt and root rot.
+                           <br>b.	Integrated Pest Management (IPM): Eliyatiningsih et al. [4] emphasized the use of Integrated Pest Management, which combines cultural, physical, and biological controls to effectively manage pests and diseases. 
+                           <br>c.	Nutrient Management: Ensuring that chili plants have access to the necessary nutrients is essential. Gashua et al. [2] highlighted how it helps in improving nutrient uptake. Farmers should ensure a balanced supply of macro and micronutrients to support optimal growth.
+                           <br>d.	Optimal Growing Conditions: Temperature, light intensity, and humidity are among the environmental factors affecting the growth of chili plants. According to Gevens et al. [11], managing these factors is crucial. Farmers should monitor environmental conditions and, if necessary, use greenhouse cultivation to maintain optimal conditions.
+                        </p>
+                     </div>
+                  </div>
+               </div>
 
- 
+               <div class="col-md-3 col-sm-6">
+                  <div class="content-box">
+                     <div class="content-box-title">Identifying chili plant growth stages and predicting harvest date using machine learning</div>
+                     <div class="content-box-body">
+                        <p>Accurate identification of the growth stages of chili plants and the prediction of their harvest dates are essential for optimal crop management. Machine learning (ML) offers a set of powerful tools for automating these tasks by learning patterns from data.
+                           <br>a.	Image-Based Identification using Convolutional Neural Networks (CNNs): CNNs have been widely used in agriculture for image recognition. These deep learning models can be trained on labeled images of chili plants at various stages of growth.
+                           <br>b.	Time-Series Analysis for Growth Trend Identification: Algorithms like ARIMA and LSTM can be used to analyze time-series data of chili plant growth [17]. By tracking metrics such as plant height, leaf count, and flowering over time, these models can identify patterns associated with different growth stages.
+                           <br>c.	Decision Trees and Random Forests for Stage Classification: These algorithms can classify the growth stage based on various features such as leaf color, size, and the number of flowers. These models are interpretable and can provide insights into which features are most indicative of specific growth stages [22].
+                           <br>d.	Regression Models for Harvest Date Prediction: Linear regression, polynomial regression, or more complex models like support vector regression can be used to predict when the chili plants will be ready for harvest based on historical data and growth metrics [16].
+                           <br>e.	Utilizing Environmental Data: Incorporating external data such as temperature, humidity, and rainfall into machine learning models can improve accuracy in harvest date predictions. Putra et al. [18] developed a growth prediction model for red chili plants using environmental factors to train a regression model.
+                        </p>
+                     </div>
+                  </div>
+               </div>
 
-Dina Machuve and Ezinne Nwankwo are developing a Deep Convolutional Neural Network (CNN) model to detect poultry diseases by classifying healthy and unhealthy feces. The goal is to test the early detection of poultry diseases using deep learning techniques. Unhealthy stool patterns can be symptoms of coccidiosis, salmonella, and Newcastle disease. They used a total of 1,255 laboratory-labeled stool and feces samples, as well as 6,812 photographs of chicken feces, for polymerase chain reaction diagnosis and laboratory-labeled stool interpretation. They trained basic CNN models such as VGG16, InceptionV3, MobileNetV2, and Exception models using labeled farm and laboratory fecal images [3]. The aim of this research is Early Disease Detection using Machine Learning to detect diseases in laying hens. There are several steps to obtain quick solutions. 
+               <div class="col-md-3 col-sm-6">
+                  <div class="content-box">
+                     <div class="content-box-title">Predicting weekly future prices for both types of chilies by taking the exchange rate as an external factor.</div>
+                     <div class="content-box-body">
+                        <p>Accurate price prediction for agricultural commodities, including chili, is crucial for farmers and traders to make informed decisions regarding selling or storing their produce. Predicting the weekly future prices for chili is particularly challenging due to the volatile nature of agricultural markets.
+                           <br>a.	Artificial Neural Networks (ANNs): Jayawardena et al. [13] demonstrated the effectiveness of Artificial Neural Networks in predicting chili prices in Sri Lanka. By considering factors such as weather conditions, global commodity prices, and historical price data, ANNs have been shown to make accurate predictions. 
+                           <br>b.	Time Series Models: Besides ANNs, other time series models like ARIMA and Holt-Winters have been compared for chili price prediction by Jayawardena et al. [13] Though ANN outperformed these models, they still hold value in understanding the time-dependent structure of the data, which is important for weekly predictions.
+                           <br>c.	Bayesian Networks: Nuvaisiyah et al. [12] used Bayesian Networks to predict chili prices using historical price and weather data. Bayesian Networks can be particularly useful in understanding the probabilistic relationships between various factors, including exchange rates, and their impact on chili prices.
+                           <br>d.	Impact on Import and Export: Exchange rates directly impact the cost of importing and exporting goods. For chilies, a change in exchange rates can affect the international competitiveness of the product. This, in turn, affects supply and demand dynamics and can have a significant influence on prices.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               
+            </div>
 
-Poultry farming is an essential part of the agriculture industry and a major source of food for humans worldwide. The productivity of poultry farms is dependent on various factors, including the control conditions and the prediction of product outcomes. In recent years, there has been a growing interest in developing new algorithms to improve the productivity of poultry farms.One of the critical factors that affect the productivity of poultry farms is the control conditions. The control conditions in poultry farming include the temperature, humidity, lighting, and ventilation of the poultry house. These factors are crucial for the health and well-being of the birds, and they can significantly impact the productivity of the farm. Therefore, it is essential to maintain optimal control conditions to ensure maximum productivity. 
-
-In recent years, researchers have been using advanced technologies and algorithms to predict the product outcomes in poultry farming. The prediction of product outcomes is essential for the farmers to make informed decisions about the management and breeding of the birds. By predicting the product outcomes, farmers can identify the most productive birds and improve the overall productivity of the farm. </p>
          </div>
          
       </div>
@@ -268,44 +323,31 @@ In recent years, researchers have been using advanced technologies and algorithm
             <h3 class="section-title">Methodology</h3>
             <p class="subheading"><span class="highlight"> </span></p>
          </div>
-         <div class="row">
-            <div class="col-md-6 text-left about-text">
+         <div class="wow fadeInUp about-text">
+            <div class="content-box-title">A.	Identifying chili plant diseases, growth stage, harvest date, weekly prices, and corrective measures.</div>
+            <p>a.	Data Collection
+               In the initial phase of this research, a comprehensive dataset was collected from a variety of sources to include a broad spectrum of information on chili plant diseases, agrochemicals, prices, exchange rates, harvest information and fertilizers. These sources included scholarly research papers, online databases, and insights from agricultural experts and specialists at CIC Pelwehera. The collected dataset comprised variables such as the types and amounts of agrochemicals and fertilizers applied, and the symptoms of diseases observed in chili plants.  
+               b.	Data Pre-processing 
+               After data collection, the preprocessing phase was initiated to ensure the quality and consistency of the data. This involved a series of steps including data cleaning, transformation, and feature engineering to prepare the data for training machine learning models. Moreover, specialized techniques like outlier detection and normalization were employed to refine the data. The rebalancing techniques were also implemented during this phase to manage the skewed data and enhance the accuracy levels of the predictive models.
+               c.	Model Development 
+               In this stage, machine learning models were developed to identify the factors that influence chili growth stage, price, disease and to determine the quantity of fertilizer and agrochemicals that needs to be used. The dataset prepared in the pre-processing stage was utilized to train the models. Active learning is used to lessen the burden of unlabeled data.
 
-               <div class="img">
-                  <img src="img/system.jpg" class="img-responsive" alt="" />\
-
-               </div>
-              
-            </div>
-            <div class="col-md-6 wow fadeInUp about-text">
-
-               <p>Predicting Egg Production
-
-                  To accurately predict egg production, a methodology can be followed, starting with the collection of historical data on egg production and relevant factors. This data includes information on environmental conditions, feed quality, lighting, and other parameters that may impact egg production. Once the data is gathered, it undergoes preprocessing steps to ensure its quality. This involves cleaning the data, handling missing values, outliers, and inconsistencies that may affect the accuracy of predictions.
-                  
-                  In addition to data cleaning, standardization or normalization techniques may be applied to ensure that all the variables are on a similar scale and contribute equally to the prediction model. This step helps prevent any bias that could arise due to differences in the range or units of the variables.
-                  
-                  The next crucial step is to identify the key predictors that significantly influence egg production. This can be accomplished through correlation analysis, feature importance techniques, or domain knowledge. By understanding the relationships 
-                  </p>
-            </div>
-            <div class="col-md-12">
-<p> between different factors and their impact on egg production, the most influential predictors can be selected for the prediction model.
-                  
-   Finally, an appropriate machine learning model is selected and trained using the preprocessed data. The model is trained to learn the patterns and relationships between the predictors and egg production. Various machine learning algorithms, such as regression models, decision trees, or neural networks, can be employed depending on the complexity of the problem and the available data.
-   
-   The trained model can then be used to provide accurate predictions of egg production based on current conditions and inputs. By continuously updating the model with new data, it can adapt and improve its predictions over time, enhancing its accuracy and usefulness for egg production forecasting.
-   
-   Research Problem 2: Monitoring Farm Conditions
-   
-   Monitoring farm conditions in real-time requires the implementation of an effective methodology. The first step involves deploying IoT devices and sensors throughout the poultry farm to continuously collect data on various parameters. These parameters may include temperature, humidity, ventilation, water quality, lighting, and more. The collected data is transmitted to a central monitoring system for further analysis.
-   
-   In the central monitoring system, the collected data is processed and analyzed to identify any deviations or anomalies from predefined thresholds or patterns. This analysis can involve statistical techniques, machine learning algorithms, or rule-based systems. By comparing the real-time data with the expected ranges or patterns, the system can detect abnormal conditions or variations that may indicate potential issues on the farm.
-   
-   Once deviations or anomalies are detected, the monitoring system generates timely alerts and notifications to the farm owner or manager. These alerts can be delivered through various communication channels, such as email, SMS, or mobile applications, enabling prompt identification and response to abnormal conditions.
-   
-   The integrated system ensures effective farm condition monitoring by continuously collecting, analyzing, and alerting relevant stakeholders about any potential issues. By promptly addressing abnormal conditions, farmers can take appropriate actions to mitigate risks, optimize farm operations, and ensure the well-being of the poultry.
-</p>
-            </div>
+               <!-- <br>1.	Identifying chili plant diseases
+               <br>A MobileNetV2 CNN model is utilized to identify diseases and a Hybrid Model combining DWT and GLCM for feature extraction. The MobileNetV2 CNN model is adept at recognizing diseases in images, while the Hybrid Model enhances feature extraction by integrating frequency and texture information.
+               <br>2.	Suggesting corrective measures 
+               <br>For disease corrective measures, fertilizers and appropriate agrochemicals are presented across three tiers based on disease severity. Corrective methods are recommended to users based on the specific disease type. Additionally, users can conveniently switch between optimal and a secondary choice for predicted agrochemicals and fertilizers. At its core, the implementation employs a Random Forest algorithm to ascertain the suitable agrochemicals and fertilizers, complete with recommended quantities and application methods. The Random Forest algorithm was chosen for its ability to handle complex, multi-dimensional data, and provide accurate recommendations, making it an ideal choice for this application.
+               <br>3.	Chili price predication
+               <br>An Artificial Neural Network model, employing a Leaky ReLU activation function, is employed for forecasting chili price data, encompassing historical prices and exchange rates. This model is utilized to estimate the prices of both chili types for a specific chosen week due to its ability to capture complex, nonlinear patterns in the data, which is essential for predicting the dynamic and interconnected nature of chili prices influenced by both historical pricing trends and exchange rate fluctuations. 
+               <br>4.	Harvest date prediction 
+               <br>A VGG-16 CNN model is used for image classification in this project because of its proven effectiveness in handling complex visual recognition tasks. This model is well-suited for categorizing plants into various stages, including germination, vegetative, flowering, maturation, and harvesting, due to its deep architecture and ability to capture intricate features within images, making it an ideal choice for precise plant stage classification. -->
+            </p>
+            <div class="content-box-title">B.	Mobile Application Development</div>
+            <p>After the development of machine learning models, a mobile application was developed to aid farmers in making informed decisions for sustainable and efficient chili cultivation. The application, developed using Flutter, was integrated with the machine learning models. It was designed to be user-friendly and to provide recommendations on the optimal types and amounts of agrochemicals and fertilizers, and in identifying symptoms of chili diseases, thus enabling timely corrective actions.
+               When a farmer uploads a picture of a plant suspected of being infected, the model analyses the picture and provides the disease description the plant is infected with and the stage of the identified disease. 
+               Several tests were conducted to ascertain that the developed application met the required standards in terms of functionality, usability, and practicality. These included Unit Testing, Integration Testing, System Testing, and User Acceptance Testing. These rigorous testing protocols were essential to guarantee the reliability, accuracy, and value of the system for the chili farmers.
+            </p>
+            <div class="content-box-title">C.	Data Visualization and Analysis</div>
+            <p>The final phase involved the utilization of data visualization techniques to present the recommendations generated by the machine learning models in a user-friendly manner. This allowed chili farmers to easily comprehend and implement the advised cultivation practices. Additionally, the data generated by the system was thoroughly analyzed to glean insights into chili plant disease corrections and their management. This involved using data visualization to discern patterns and trends, and statistical analysis to evaluate the system’s effectiveness in enhancing chili plant health and diminishing disease incidence.</p>
          </div>
       </div>
    </section>
@@ -353,7 +395,7 @@ In recent years, researchers have been using advanced technologies and algorithm
    <!-- Start Fun Facts Section -->
    <section id="fun-facts" class="parallax-section-5">
       <div class="container">
-         <div class="col-md-12 text-center white wow fadeInUp">
+         <div class="col-md-12 text-center white wow fadeInUp fade-bg">
             <h3 class="section-title white">Research Problem & Solution</h3>
             <p class="subheading"> <span class="highlight"></span></p>
 
@@ -524,11 +566,11 @@ Overall, by leveraging machine learning, IoT devices, and security systems, the 
                      </div>
                      <div class="card-details">
                         <h4>Status Document 1</h4>
-                        <p>Submitted on 2021/02/25</p>
+                        <p>Submitted on 2023/05/22</p>
                         <p style="color: red;">Group</p>
                      </div>
                      <div class="card-button">
-                        <a href="https://drive.google.com/drive/folders/1rpT4yrY1ReXQrQ1rOnf4sHNC3PXThCwj?usp=share_link" class="btn-download">Download</a>
+                        <a href="https://drive.google.com/drive/folders/1A2QR1OEGzYG3OT2or5wzvwSCKFZwCyQP" class="btn-download">Download</a>
                      </div>
                   </div>
                </div>
@@ -539,11 +581,11 @@ Overall, by leveraging machine learning, IoT devices, and security systems, the 
                      </div>
                      <div class="card-details">
                         <h4>Proposal Individual Reports</h4>
-                        <p>Submitted on 2021/02/25</p>
+                        <p>Submitted on 2023/05/08</p>
                         <p style="color: green;">Individual</p>
                      </div>
                      <div class="card-button">
-                        <a href="https://drive.google.com/drive/folders/1wY_LtoNVmo75D2YZGzvTMPe_gBasrwrR?usp=share_link" class="btn-download">Download</a>
+                        <a href="https://drive.google.com/drive/folders/1xF-ciCSkDfCG47TAF3wDh9556ATSpJPt" class="btn-download">Download</a>
                      </div>
                   </div>
                </div>
@@ -554,11 +596,11 @@ Overall, by leveraging machine learning, IoT devices, and security systems, the 
                      </div>
                      <div class="card-details">
                         <h4>Research Paper</h4>
-                        <p>Submitted on 2021/02/25</p>
+                        <p>Submitted on 2023/08/27</p>
                         <p style="color: rgb(255, 8, 0);">Group</p>
                      </div>
                      <div class="card-button">
-                        <a href="https://drive.google.com/drive/folders/1qkE48c62tzzzxlvfgRr1naQdP98JjZN_?usp=share_link" class="btn-download">Download</a>
+                        <a href="https://drive.google.com/drive/folders/1XkD2UEgczQFbSCqhNJ1WQaBcabgSJCJn" class="btn-download">Download</a>
                      </div>
                   </div>
                </div>
@@ -568,12 +610,12 @@ Overall, by leveraging machine learning, IoT devices, and security systems, the 
                         <img src="img/pdf.png" alt="PDF Icon" />
                      </div>
                      <div class="card-details">
-                        <h4>Final Report & Presentation</h4>
-                        <p>Submitted on 2021/02/25</p>
+                        <h4>Final Reports</h4>
+                        <p>Submitted on 2023/09/10</p>
                         <p style="color:green;">Individual</p>
                      </div>
                      <div class="card-button">
-                        <a href="https://drive.google.com/drive/folders/13aUDp9wFn5QrdItmm-1UPCIL_MH1S1_a?usp=share_link" class="btn-download">Download</a>
+                        <a href="https://drive.google.com/drive/folders/1H-bK_JxG3qqXXplZL3XnJwVd2Z0Mrgfj" class="btn-download">Download</a>
                      </div>
                   </div>
                </div>
@@ -584,11 +626,11 @@ Overall, by leveraging machine learning, IoT devices, and security systems, the 
                      </div>
                      <div class="card-details">
                         <h4>Status Document 2</h4>
-                        <p>Submitted on 2021/02/25</p>
+                        <p>Submitted on 2023/09/02</p>
                         <p style="color: green;">Individual</p>
                      </div>
                      <div class="card-button">
-                        <a href="https://drive.google.com/drive/folders/1v8EYmENyh9ulwHAvx3CsY-6HPWkDUHDU?usp=share_link" class="btn-download">Download</a>
+                        <a href="https://drive.google.com/drive/folders/1wby9MCRm1IfUJDZ6o_yNuqG-YUs-lfSc" class="btn-download">Download</a>
                      </div>
                   </div>
                </div>
@@ -599,11 +641,11 @@ Overall, by leveraging machine learning, IoT devices, and security systems, the 
                      </div>
                      <div class="card-details">
                         <h4>Log Book</h4>
-                        <p>Submitted on 2021/02/25</p>
+                        <p>Submitted on 2023/10/25</p>
                         <p style="color: red;">Group</p>
                      </div>
                      <div class="card-button">
-                        <a href="https://drive.google.com/drive/folders/1VSkG6VGmzqNO0bE1Ck7GoyRsJOkw-KuT?usp=share_link" class="btn-download">Download</a>
+                        <a href="https://drive.google.com/drive/folders/1jyu0vojHUfJaCkIWAX323_KHMNIMeNsI" class="btn-download">Download</a>
                      </div>
                   </div>
                </div>
@@ -622,23 +664,8 @@ Overall, by leveraging machine learning, IoT devices, and security systems, the 
                   <img src="img/pdf.png" alt="PDF Icon" />
                </div>
                <div class="card-details">
-                  <h4>Proposal-Presentation 01</h4>
-                  <p>Submitted on 2021/02/25</p>
-                  <p style="color: red;">Group</p>
-               </div>
-               <div class="card-button">
-                  <a href="https://drive.google.com/drive/folders/1AiS5TmCVDJMyPERiCI2qcOzZQU5vmGik?usp=share_link" class="btn-download">Download</a>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-3 col-sm-6 card-container">
-            <div class="card">
-               <div class="card-icon">
-                  <img src="img/pdf.png" alt="PDF Icon" />
-               </div>
-               <div class="card-details">
                   <h4>Proposal-Presentation</h4>
-                  <p>Submitted on 2022/10/14</p>
+                  <p>Submitted on 2023/03/30</p>
                   <p style="color: red;">Group</p>
                </div>
                <div class="card-button">
@@ -652,12 +679,12 @@ Overall, by leveraging machine learning, IoT devices, and security systems, the 
                   <img src="img/pdf.png" alt="PDF Icon" />
                </div>
                <div class="card-details">
-                  <h4>Progress Presentations</h4>
-                  <p>Submitted on 2021/02/25</p>
+                  <h4>Progress Presentation - 1</h4>
+                  <p>Submitted on 2023/05/23</p>
                   <p style="color: red;">Group</p>
                </div>
                <div class="card-button">
-                  <a href="22_23-J 35.ppt" class="btn-download">Download</a>
+                  <a href="https://drive.google.com/drive/folders/1E4_UCuEf4GA9MgZlpIKbI57mkghG_z91" class="btn-download">Download</a>
                </div>
             </div>
          </div>
@@ -668,7 +695,7 @@ Overall, by leveraging machine learning, IoT devices, and security systems, the 
                </div>
                <div class="card-details">
                   <h4>Progress Presentation - 2</h4>
-                  <p>Submitted on 2021/02/25</p>
+                  <p>Submitted on 2023/09/05</p>
                   <p style="color: red;">Group</p>
                </div>
                <div class="card-button">
@@ -676,7 +703,21 @@ Overall, by leveraging machine learning, IoT devices, and security systems, the 
                </div>
             </div>
          </div>
-         <!-- Repeat the above card structure for other documents -->
+         <div class="col-md-3 col-sm-6 card-container">
+            <div class="card">
+               <div class="card-icon">
+                  <img src="img/pdf.png" alt="PDF Icon" />
+               </div>
+               <div class="card-details">
+                  <h4>Final Presentation</h4>
+                  <p>Submitted on 2023/10/30</p>
+                  <p style="color:green;">Individual</p>
+               </div>
+               <div class="card-button">
+                  <a href="https://drive.google.com/drive/folders/1FNYLlCa0VV8fgPPnCFNLC5uLle7XGDuw" class="btn-download">Download</a>
+               </div>
+            </div>
+         </div>
       </div>
    </section>
 
@@ -692,19 +733,24 @@ Overall, by leveraging machine learning, IoT devices, and security systems, the 
                <p class="subheading wow fadeInUp"> Let's Work Together. </p>
             </div>
             <div class="col-md-7 wow fadeInUp">
-               <div id="message"></div>
-               <!-- Contact Form will be functional only on your server. Upload to your server when testing. -->
-               <form method="post" action="php/contact-form.php.htm" name="contactform" id="contactform">
-                  <fieldset>
-                     <input name="name" type="text" id="name" placeholder="Name"/>
-                     <input name="email" type="text" id="email" placeholder="Email"/>
-                     <input name="subject" type="text" id="subject" placeholder="Subject"/>
-                  </fieldset>
-                  <fieldset>
-                     <textarea name="comments" cols="40" rows="3" id="comments" placeholder="Message"></textarea>
-                  </fieldset>
-                  <input type="submit" class="submit" id="submit" value="Send Message" />
-               </form>
+               <div class="contact-row">
+                  <div class="content-box-title">Ms Jenny Krishara - email</div>
+               </div>
+               <div class="contact-row">
+                  <div class="content-box-title">Ms Thamali Dassanayake - email</div>
+               </div>
+               <div class="contact-row">
+                  <div class="content-box-title">Nilam A.A.H - email</div>
+               </div>
+               <div class="contact-row">
+                  <div class="content-box-title">Perera J.S - email</div>
+               </div>
+               <div class="contact-row">
+                  <div class="content-box-title">Warnakulasuriya I.S.G - email</div>
+               </div>
+               <div class="contact-row">
+                  <div class="content-box-title">Edirisooriya N.W - nadeeshedi@gmail.com</div>
+               </div>
             </div>
             <div class="col-md-5 wow fadeInLeft">
                <div class="img">
