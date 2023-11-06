@@ -663,6 +663,9 @@ p {
 }
 .tp-banner .home-subheading {
     line-height: 40px!important;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px !important;
 }
 .home-button {
 	margin-top: 80px;
